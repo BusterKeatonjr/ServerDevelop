@@ -1,0 +1,13 @@
+{
+  "name": "udp-tcp-app",
+  "version": "1.0.0",
+  "main": "client.js",
+  "scripts": {
+    "start-server": "node server.js",
+    "start-intermediate": "node intermediate.js",
+    "start-client": "npx electron ."
+  },
+  "dependencies": {
+    "electron": "^28.0.0"
+  }
+} 
